@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    background-color: red;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.Service-card {
+    width: 20%;
+    background: green;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 15px;
+}
+
+@media(max-width:768px) {
+    header {
+        flex-direction: column;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .service-card {
+        width: 100%;
+    }
+}
