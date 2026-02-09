@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W3 SCHOOLS</title>
+
+    <style>
+        .upleft li a img{
+            display:block;
+            cursor:pointer ;
+        }
+        .upright div:hover a {
+            background-color: lightgrey;
+            border: 40px;
+            border-radius: 10px;
+        }
+
+        .upleft div:hover a {
+            background-color: green;
+            color: white;
+        }
+
+        .upleft ul div:active a {
+            background-color: black;
+            color: white;
+        }
+
+        .up:hover {
+            background-color: lightgrey;
+            border: pink;
+        }
+
+        /* Right Navbar */
+        .upright ul {
+            border: radius 2px;
+            background-color: white;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .upright li {
+            float: right;
+            list-style: none;
+            border-radius: 2px;
+        }
+
+        .upright li a {
+            display: block;
+            text-decoration: none;
+            padding: 11px 19px;
+            color: black;
+            font-weight: 500;
+        }
+
+        /* Left NavBar */
+
+        .upleft ul {
+            border: radius 2px;
+            background-color: white;
+            margin: 0;
+            overflow: hidden;
+
+        }
+
+        .upleft li {
+            float: left;
+            list-style-type: none;
+            border-radius: 2px;
+        }
+
+        .upleft li a {
+            display: block;
+            text-decoration: none;
+            padding: 0px 11px;
+            color: black;
+            font-weight: 500;
+        }
+
+        /* Mid navbar */
+
+        .upmid {
+            clear: both;
+        }
+
+        .upmid ul {
+            border: radius 2px;
+            background-color: white;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .upmid li {
+            display: flex;
+            list-style: none;
+            border-radius: 2px;
+        }
+
+        .upmid li a {
+
+            text-decoration: none;
+            padding: 0px 11px;
+            color: black;
+            font-weight: 500;
+        }
+
+        /* iframe{
+            display:none;
+            background-color:lightgray;
+        }
+        .upmid li a :target{
+            display:block;
+        } */
+    </style>
+</head>
+
+<body>
+    <nav class="upright">
+        <ul>
+            <li><a href="#"
+                    style="background-color:green; border-radius: 10px;color:white;margin: 0px;text-align:center;">Sign
+                    in</a></li>
+            <div>
+                <li><a href="#">Get Certified</a></li>
+            </div>
+            <div>
+                <li><a href="#">Upgrade</a></li>
+            </div>
+            <div>
+                <li><a href="#">Teachers</a></li>
+            </div>
+            <div>
+                <li><a href="#">Spaces</a></li>
+            </div>
+            <div>
+                <li><a href="#">Bootcamps</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <nav class="upleft">
+        <ul>
+            <div>
+            <li><a href="https://www.w3schools.com/" target="_blank"><img src="w3.webp" style="height: 60px; width:100px;"></a></li>
+            </div>
+            <div>
+                <li><a href="#">Tutorials</a></li>
+            </div>
+            <div>
+                <li><a href="#">References</a></li>
+            </div>
+            <div>
+                <li><a href="#">Exercises</a></li>
+            </div>
+            <div>
+                <li><a href="#">Certificates</a></li>
+            </div>
+            <div>
+                <li><input type="search " placeholder="Search...🔎"></li>
+            </div>
+        </ul>
+
+    </nav>
+    <nav class="upmid">
+        <ul>
+            <li><a href="htmlfull.html" target="htmliframe">HTML</a>
+                <iframe name="htmliframe" height="650" width="250"></iframe>
+            </li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">JAVASCRIPT</a></li>
+            <li><a href="#">SQL</a></li>
+            <li><a href="#">PYTHON</a></li>
+            <li><a href="#">JAVA</a></li>
+            <li><a href="#">PHP</a></li>
+            <li><a href="#">HOW TO</a></li>
+            <li><a href="#">W3.CSS</a></li>
+            <li><a href="#">C</a></li>
+            <li><a href="#">C++</a></li>
+            <li><a href="#">C#</a></li>
+            <li><a href="#">BOOTSTRAP</a></li>
+            <li><a href="#">REACT</a></li>
+            <li><a href="#">MYSQL</a></li>
+            <li><a href="#">JQUERY</a></li>
+            <li><a href="#">EXCEL</a></li>
+            <li><a href="#">XML</a></li>
+            <li><a href="#">DJANGO</a></li>
+            <li><a href="#">NUMPY</a></li>
+        </ul>
+    </nav>
+
+
+</body>
+
+</html>
