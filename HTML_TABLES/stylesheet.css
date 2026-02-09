@@ -1,0 +1,19 @@
+table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+td {
+    background-color: chartreuse;
+}
+
+th {
+    background-color: cornflowerblue;
+}
+
+/* id selector */
+
+#reriw {
+    color: chocolate;
+}
