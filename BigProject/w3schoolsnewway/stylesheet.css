@@ -1,0 +1,20 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+.leftnav{
+    background-color:white;
+    display:flex;
+    padding:10px 10px;
+    border:solid 1px;
+    justify-content:space-between;
+}
+.upnav{
+    background-color:white;
+    display:flex;
+    padding:10px  10px;
+    border-bottom:solid 1px;
+    justify-content:space-between;
+    margin: right 15px;
+}
+
