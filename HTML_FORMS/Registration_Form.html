@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>College Portal</title>
+</head>
+
+<body>
+    <h3>Registration Form</h3>
+    <form>
+        Name:<br>
+        <input type="text" name="name" required placeholder="Enter Your Name"><br><br>
+        Email:<br>
+        <input type="email" name="email" required placeholder="Enter Your Email Address"><br><br>
+        Password:<br>
+        <input type="password" name="password" minlength="6" required placeholder="Enter Your Password"><br><br>
+        Mobile:<br>
+        <input type="tel" name="mobile" patter="[0-9]{10}" required placeholder="Enter Your Mobile Number"><br><br>
+        Gender:<br>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female<br><br>
+
+        Course:<br>
+        <select name="course" required>
+            <option value="">---Select Course---</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="Raspberry Pi">Raspberry Pi</option>
+            <option value="HTML">HTML</option>
+        </select><br><br>
+        <label>Skills:</label><br>
+        <input type="checkbox" name="Skills" value="Good Reader">Good Reader
+        <input type="checkbox" name="Skills" value="Problem Solver">Problem Solver<br><br>
+        Address:<br>
+        <textarea name="address" rows="4" cols="50"></textarea><br><br>
+
+    </form>
+
+</body>
+
+</html>
