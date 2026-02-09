@@ -1,0 +1,81 @@
+body {
+    font-family: arial;
+}
+
+.logo {
+    background-image: url(https://tse4.mm.bing.net/th/id/OIP.heGWsFSN26KY_os7Lnvm1gHaEK?rs=1&pid=ImgDetMain&o=7&rm=3);
+    color: black;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    background-color: lightpink;
+    padding: 15px;
+    width: 100%;
+    flex-wrap: row;
+    margin-bottom: 30px;
+    margin-top: -25px;
+    gap: 25%;
+}
+
+.nav a {
+    border: 2px solid;
+    padding: 13px;
+    color: green;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.nav a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    border: 1px solid blueviolet;
+    color: black;
+}
+
+.para {
+    text-align: end;
+    font-size: 25px;
+    font: bold;
+}
+
+.projectcontainer {
+    display: flex;
+    width: 100%;
+
+}
+
+.pa a{
+    flex:0 0 250px;
+    flex-wrap:wrap;
+    background-color: cornflowerblue;
+    text-decoration: none;
+    border: 1px solid black;
+    color: yellow;
+    border-radius: 6px;
+    padding: 120px;
+    text-align: center;
+}
+.contactcontainer {
+    
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 390px;
+    width: 100%;
+
+}
